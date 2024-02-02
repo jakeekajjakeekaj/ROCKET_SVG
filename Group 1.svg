@@ -1,0 +1,13 @@
+<svg width="272" height="587" viewBox="0 0 272 587" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 1">
+<g id="Rocket">
+<ellipse id="Ellipse 1" cx="136" cy="222.5" rx="136" ry="222.5" fill="#0D4AE6"/>
+<ellipse id="Ellipse 2" cx="135.5" cy="119.5" rx="36.5" ry="35.5" fill="#131212"/>
+<path id="Polygon 1" d="M135.5 355L188.761 473.5H82.2394L135.5 355Z" fill="#0D4AE6"/>
+</g>
+<g id="Flame">
+<path id="Polygon 2" d="M135.5 587L82.2394 488.75H188.761L135.5 587Z" fill="#D19E1C"/>
+<path id="Polygon 3" d="M135.5 557L107.354 503H163.646L135.5 557Z" fill="#BA421C"/>
+</g>
+</g>
+</svg>

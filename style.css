@@ -1,0 +1,88 @@
+:root {
+    --dark: #020111;
+    --light: #3a3a52;
+    --blue: #09d3ef;
+    --purple: #4763EF;
+    --flame: #EF9847;
+    --flame-light: #EFB647;
+}
+
+body {
+    background: linear-gradient(to bottom, var(--dark) 40%, var(--light) 100%);
+    font-family: sans-serif;
+    height: 100vh;
+    /* box-sizing: border-box; */
+}
+
+body, main, button, div, svg {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    height: 100%;
+}
+
+h1 {
+    margin-bottom: 5rem;
+}
+
+.wrapper {
+    display: grid;
+    place-items: center;
+    /* height: calc(100vh - 10rem); */
+    height: 80%;
+}
+
+.rocket {
+    width: auto;
+    height: 40%;
+    transform: rotate(45deg);
+}
+
+#ship {
+    fill: var(--purple);
+}
+
+#forma-2 {
+    fill: #000;
+}
+
+#flame-front {
+    fill: var(--flame-light);
+}
+
+#flame-back {
+    fill: var(--flame);
+}
+
+#flame {
+    animation: fire .2s infinite;
+    transform-origin: center;
+}
+
+@keyframes fire {
+    0% {
+        transform: scale(0.95);
+    } 100% {
+        transform: scale(1);
+    }
+}
+
+.rocket-animation {
+    animation: launch 3s linear;
+    transform-origin: center;
+}
+
+@keyframes launch {
+    0% {
+        transform: rotate(45deg);
+    } 20% {
+        transform: rotate(0deg);
+    }
+    60% {
+        transform: translateY(-100px);
+    } 100% {
+        transform: translateY(-1000px);
+    }
+}

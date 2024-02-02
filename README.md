@@ -1,0 +1,1 @@
+Este es un pequeño proyecto usando svg y animaciones, la animacion fue algo pequeño creado en SIGMA, de igual manera solo se centró en realizar la animación
